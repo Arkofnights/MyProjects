@@ -1,0 +1,29 @@
+.govno{
+    color: aqua;
+    font-weight: 200;
+    font-size: large;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+  
+  .footer,
+  .push {
+    height: 50px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Добавляем отрицательный margin-bottom на wrapper, чтобы учесть высоту футера */
+  .push {
+    margin-bottom: -50px;
+  }
